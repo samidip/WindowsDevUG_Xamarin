@@ -79,6 +79,34 @@ namespace WindowsDevUG
 				this.OnPropertyChanged("Date");
 			}
 		}
+
+		private string imageurl;
+		public string ImageURL
+		{
+			get
+			{
+				return this.imageurl;
+			}
+			set
+			{
+				this.imageurl = value;
+				this.OnPropertyChanged("ImageURL");
+			}
+		}
+
+		private Guid speakerid;
+		public Guid SpeakerId
+		{
+			get
+			{
+				return this.speakerid;
+			}
+			set
+			{
+				this.speakerid = value;
+				this.OnPropertyChanged("SpeakerId");
+			}
+		}
 	}
 }
 

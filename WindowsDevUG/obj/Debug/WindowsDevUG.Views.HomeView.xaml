@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="WindowsDevUG.HomeView"
+		     xmlns:TelerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls"
+		     xmlns:TelerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.XamarinForms.DataControls">
+	<ContentPage.Content>
+		<TelerikDataControls:RadListView x:Name="MeetupsList" SelectionMode="Single" ItemTapped="Meetup_Selected">
+			<TelerikDataControls:RadListView.ItemTemplate>
+				<DataTemplate>
+					<TelerikListView:ListViewTemplateCell>
+		            <TelerikListView:ListViewTemplateCell.View>
+		              <StackLayout Orientation="Vertical" Padding="20">
+						<StackLayout Orientation="Horizontal">
+							<Image Source="MeetupIcon.png" />
+							<Label Text="{Binding Month}" TextColor="Black" FontAttributes="Bold" />
+						</StackLayout>
+							<Label Text="{Binding Topic}" TextColor="Gray" />
+		              </StackLayout>
+		            </TelerikListView:ListViewTemplateCell.View>
+		          </TelerikListView:ListViewTemplateCell>
+				</DataTemplate>
+			</TelerikDataControls:RadListView.ItemTemplate>	
+		</TelerikDataControls:RadListView>	
+	</ContentPage.Content>
+</ContentPage>

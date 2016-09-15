@@ -30,3 +30,7 @@
 /Users/sambasu/Projects/WindowsDevUG/iOS/bin/iPhoneSimulator/Debug/WindowsDevUG.dll
 /Users/sambasu/Projects/WindowsDevUG/iOS/bin/iPhoneSimulator/Debug/WindowsDevUG.dll.mdb
 /Users/sambasu/Projects/WindowsDevUG/iOS/bin/iPhoneSimulator/Debug/Telerik.Everlive.Sdk.dll
+/Users/sambasu/Projects/WindowsDevUG/iOS/obj/iPhoneSimulator/Debug/optimized/MeetupIcon.png
+/Users/sambasu/Projects/WindowsDevUG/iOS/obj/iPhoneSimulator/Debug/optimized/PresentationIcon.png
+/Users/sambasu/Projects/WindowsDevUG/iOS/obj/iPhoneSimulator/Debug/optimized/SpeakerIcon.png
+/Users/sambasu/Projects/WindowsDevUG/iOS/obj/iPhoneSimulator/Debug/optimized/UGIcon.png

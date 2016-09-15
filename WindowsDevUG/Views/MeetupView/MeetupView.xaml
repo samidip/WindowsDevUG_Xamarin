@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="WindowsDevUG.MeetupView"
+		    xmlns:mypages="clr-namespace:WindowsDevUG;assembly=WindowsDevUG">
+	<TabbedPage.Children>
+	    <mypages:DetailsPage Title="Details" Icon="PresentationIcon.png"/>
+	    <mypages:SpeakerPage Title="Speaker" Icon="SpeakerIcon.png"/>
+	</TabbedPage.Children>
+</TabbedPage>

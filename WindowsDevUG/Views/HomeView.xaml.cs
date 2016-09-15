@@ -21,6 +21,13 @@ namespace WindowsDevUG
 			await HVM.GetAllMeetups();
 			this.MeetupsList.ItemsSource = HVM.MeetupsCollection;
 		}
+
+		async void Meetup_Selected(object sender, Telerik.XamarinForms.DataControls.ListView.ItemTapEventArgs e)
+		{
+			Meetup selectedMeetup = (Meetup)e.Item;
+
+			await Navigation.PushAsync(new MeetupView(selectedMeetup));
+		}
 	}
 }
 

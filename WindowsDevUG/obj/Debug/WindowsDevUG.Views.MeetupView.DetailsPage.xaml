@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="WindowsDevUG.DetailsPage">
+	<ContentPage.Content>
+		<ScrollView Padding="20">
+			<StackLayout Orientation="Vertical">
+				<Label Text="Topic" FontAttributes="Bold" />
+				<Label x:Name="TopicLabel" />
+				<Label Text="Abstract" FontAttributes="Bold" />
+				<Label x:Name="AbstractLabel" />
+				<Label Text="Specials" FontAttributes="Bold" />
+				<Label x:Name="SpecialsLabel" />
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

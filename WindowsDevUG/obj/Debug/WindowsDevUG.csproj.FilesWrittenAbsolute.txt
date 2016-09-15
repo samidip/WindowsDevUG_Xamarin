@@ -18,3 +18,17 @@
 /Users/sambasu/Projects/WindowsDevUG/WindowsDevUG/obj/Debug/WindowsDevUG.dll
 /Users/sambasu/Projects/WindowsDevUG/WindowsDevUG/obj/Debug/WindowsDevUG.dll.mdb
 /Users/sambasu/Projects/WindowsDevUG/WindowsDevUG/bin/Debug/Telerik.Everlive.Sdk.dll
+/Users/sambasu/Projects/WindowsDevUG/WindowsDevUG/obj/Debug/WindowsDevUG.Views.HomeView.xaml
+/Users/sambasu/Projects/WindowsDevUG/WindowsDevUG/obj/Debug/WindowsDevUG.Views.HomeView.xaml.g.cs
+/Users/sambasu/Projects/WindowsDevUG/WindowsDevUG/obj/Debug/WindowsDevUG.Views.MeetupView.xaml
+/Users/sambasu/Projects/WindowsDevUG/WindowsDevUG/obj/Debug/WindowsDevUG.Views.MeetupView.xaml.g.cs
+/Users/sambasu/Projects/WindowsDevUG/WindowsDevUG/obj/Debug/WindowsDevUG.Views.MeetupView.MeetupView.xaml
+/Users/sambasu/Projects/WindowsDevUG/WindowsDevUG/obj/Debug/WindowsDevUG.Views.MeetupView.Details.xaml
+/Users/sambasu/Projects/WindowsDevUG/WindowsDevUG/obj/Debug/WindowsDevUG.Views.MeetupView.Speaker.xaml
+/Users/sambasu/Projects/WindowsDevUG/WindowsDevUG/obj/Debug/WindowsDevUG.Views.MeetupView.MeetupView.xaml.g.cs
+/Users/sambasu/Projects/WindowsDevUG/WindowsDevUG/obj/Debug/WindowsDevUG.Views.MeetupView.Details.xaml.g.cs
+/Users/sambasu/Projects/WindowsDevUG/WindowsDevUG/obj/Debug/WindowsDevUG.Views.MeetupView.Speaker.xaml.g.cs
+/Users/sambasu/Projects/WindowsDevUG/WindowsDevUG/obj/Debug/WindowsDevUG.Views.MeetupView.DetailsPage.xaml
+/Users/sambasu/Projects/WindowsDevUG/WindowsDevUG/obj/Debug/WindowsDevUG.Views.MeetupView.DetailsPage.xaml.g.cs
+/Users/sambasu/Projects/WindowsDevUG/WindowsDevUG/obj/Debug/WindowsDevUG.Views.MeetupView.SpeakerPage.xaml
+/Users/sambasu/Projects/WindowsDevUG/WindowsDevUG/obj/Debug/WindowsDevUG.Views.MeetupView.SpeakerPage.xaml.g.cs

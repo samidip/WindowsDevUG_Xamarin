@@ -3,13 +3,13 @@
 		     xmlns:TelerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls"
 		     xmlns:TelerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.XamarinForms.DataControls">
 	<ContentPage.Content>
-		<TelerikDataControls:RadListView x:Name="MeetupsList">
+		<TelerikDataControls:RadListView x:Name="MeetupsList" SelectionMode="Single" ItemTapped="Meetup_Selected">
 			<TelerikDataControls:RadListView.ItemTemplate>
 				<DataTemplate>
 					<TelerikListView:ListViewTemplateCell>
 		            <TelerikListView:ListViewTemplateCell.View>
 		              <StackLayout Orientation="Vertical" Padding="20">
-		                <Label Text="{Binding Month}" TextColor="Black" FontAttributes="Bold" />
+						<Label Text="{Binding Month}" TextColor="Black" FontAttributes="Bold" />
 						<Label Text="{Binding Topic}" TextColor="Gray" />
 		              </StackLayout>
 		            </TelerikListView:ListViewTemplateCell.View>
